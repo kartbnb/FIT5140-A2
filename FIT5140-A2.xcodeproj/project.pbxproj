@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323149F72344955F00DC101B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323149F62344955F00DC101B /* AppDelegate.swift */; };
+		323149F92344955F00DC101B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323149F82344955F00DC101B /* SceneDelegate.swift */; };
+		323149FB2344955F00DC101B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323149FA2344955F00DC101B /* ViewController.swift */; };
+		323149FE2344955F00DC101B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323149FC2344955F00DC101B /* Main.storyboard */; };
+		32314A012344955F00DC101B /* FIT5140_A2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 323149FF2344955F00DC101B /* FIT5140_A2.xcdatamodeld */; };
+		32314A032344956300DC101B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32314A022344956300DC101B /* Assets.xcassets */; };
+		32314A062344956300DC101B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32314A042344956300DC101B /* LaunchScreen.storyboard */; };
+		32314A0E2344CF0C00DC101B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32314A0D2344CF0C00DC101B /* GoogleService-Info.plist */; };
+		32314A102344D14C00DC101B /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32314A0F2344D14C00DC101B /* FirebaseController.swift */; };
+		32314A122344D76600DC101B /* TempColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32314A112344D76600DC101B /* TempColorModel.swift */; };
+		EF54F82D5BE1159A1795694B /* Pods_FIT5140_A2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9F2984030D9EC6B13CE73A /* Pods_FIT5140_A2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1761F94D3EBC144448B9E971 /* Pods-FIT5140-A2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140-A2.release.xcconfig"; path = "Target Support Files/Pods-FIT5140-A2/Pods-FIT5140-A2.release.xcconfig"; sourceTree = "<group>"; };
+		323149F32344955F00DC101B /* FIT5140-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIT5140-A2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323149F62344955F00DC101B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323149F82344955F00DC101B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		323149FA2344955F00DC101B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		323149FD2344955F00DC101B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32314A002344955F00DC101B /* FIT5140_A2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FIT5140_A2.xcdatamodel; sourceTree = "<group>"; };
+		32314A022344956300DC101B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32314A052344956300DC101B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32314A072344956300DC101B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32314A0D2344CF0C00DC101B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32314A0F2344D14C00DC101B /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		32314A112344D76600DC101B /* TempColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempColorModel.swift; sourceTree = "<group>"; };
+		7A9F2984030D9EC6B13CE73A /* Pods_FIT5140_A2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT5140_A2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A6BCE1A2EEF00984AA38BD /* Pods-FIT5140-A2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140-A2.debug.xcconfig"; path = "Target Support Files/Pods-FIT5140-A2/Pods-FIT5140-A2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323149F02344955F00DC101B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF54F82D5BE1159A1795694B /* Pods_FIT5140_A2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0959A89129C092E834756B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9F2984030D9EC6B13CE73A /* Pods_FIT5140_A2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		323149EA2344955F00DC101B = {
+			isa = PBXGroup;
+			children = (
+				323149F52344955F00DC101B /* FIT5140-A2 */,
+				323149F42344955F00DC101B /* Products */,
+				4FE09D895A2CBA65AF48150C /* Pods */,
+				0959A89129C092E834756B9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		323149F42344955F00DC101B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323149F32344955F00DC101B /* FIT5140-A2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323149F52344955F00DC101B /* FIT5140-A2 */ = {
+			isa = PBXGroup;
+			children = (
+				323149F62344955F00DC101B /* AppDelegate.swift */,
+				323149F82344955F00DC101B /* SceneDelegate.swift */,
+				323149FA2344955F00DC101B /* ViewController.swift */,
+				323149FC2344955F00DC101B /* Main.storyboard */,
+				32314A022344956300DC101B /* Assets.xcassets */,
+				32314A042344956300DC101B /* LaunchScreen.storyboard */,
+				32314A072344956300DC101B /* Info.plist */,
+				32314A0D2344CF0C00DC101B /* GoogleService-Info.plist */,
+				323149FF2344955F00DC101B /* FIT5140_A2.xcdatamodeld */,
+				32314A0F2344D14C00DC101B /* FirebaseController.swift */,
+				32314A112344D76600DC101B /* TempColorModel.swift */,
+			);
+			path = "FIT5140-A2";
+			sourceTree = "<group>";
+		};
+		4FE09D895A2CBA65AF48150C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87A6BCE1A2EEF00984AA38BD /* Pods-FIT5140-A2.debug.xcconfig */,
+				1761F94D3EBC144448B9E971 /* Pods-FIT5140-A2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323149F22344955F00DC101B /* FIT5140-A2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32314A0A2344956300DC101B /* Build configuration list for PBXNativeTarget "FIT5140-A2" */;
+			buildPhases = (
+				E59A52AEEA4835125A71F38E /* [CP] Check Pods Manifest.lock */,
+				323149EF2344955F00DC101B /* Sources */,
+				323149F02344955F00DC101B /* Frameworks */,
+				323149F12344955F00DC101B /* Resources */,
+				12116C69463087ECCA111F8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIT5140-A2";
+			productName = "FIT5140-A2";
+			productReference = 323149F32344955F00DC101B /* FIT5140-A2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323149EB2344955F00DC101B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "佟诗博";
+				TargetAttributes = {
+					323149F22344955F00DC101B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 323149EE2344955F00DC101B /* Build configuration list for PBXProject "FIT5140-A2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323149EA2344955F00DC101B;
+			productRefGroup = 323149F42344955F00DC101B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323149F22344955F00DC101B /* FIT5140-A2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323149F12344955F00DC101B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32314A062344956300DC101B /* LaunchScreen.storyboard in Resources */,
+				32314A0E2344CF0C00DC101B /* GoogleService-Info.plist in Resources */,
+				32314A032344956300DC101B /* Assets.xcassets in Resources */,
+				323149FE2344955F00DC101B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12116C69463087ECCA111F8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FIT5140-A2/Pods-FIT5140-A2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FIT5140-A2/Pods-FIT5140-A2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FIT5140-A2/Pods-FIT5140-A2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59A52AEEA4835125A71F38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIT5140-A2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323149EF2344955F00DC101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32314A102344D14C00DC101B /* FirebaseController.swift in Sources */,
+				323149FB2344955F00DC101B /* ViewController.swift in Sources */,
+				323149F72344955F00DC101B /* AppDelegate.swift in Sources */,
+				32314A012344955F00DC101B /* FIT5140_A2.xcdatamodeld in Sources */,
+				323149F92344955F00DC101B /* SceneDelegate.swift in Sources */,
+				32314A122344D76600DC101B /* TempColorModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		323149FC2344955F00DC101B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323149FD2344955F00DC101B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32314A042344956300DC101B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32314A052344956300DC101B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32314A082344956300DC101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32314A092344956300DC101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32314A0B2344956300DC101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A6BCE1A2EEF00984AA38BD /* Pods-FIT5140-A2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRB66268H7;
+				INFOPLIST_FILE = "FIT5140-A2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibo.FIT5140-A2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32314A0C2344956300DC101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1761F94D3EBC144448B9E971 /* Pods-FIT5140-A2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRB66268H7;
+				INFOPLIST_FILE = "FIT5140-A2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibo.FIT5140-A2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323149EE2344955F00DC101B /* Build configuration list for PBXProject "FIT5140-A2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32314A082344956300DC101B /* Debug */,
+				32314A092344956300DC101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32314A0A2344956300DC101B /* Build configuration list for PBXNativeTarget "FIT5140-A2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32314A0B2344956300DC101B /* Debug */,
+				32314A0C2344956300DC101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		323149FF2344955F00DC101B /* FIT5140_A2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32314A002344955F00DC101B /* FIT5140_A2.xcdatamodel */,
+			);
+			currentVersion = 32314A002344955F00DC101B /* FIT5140_A2.xcdatamodel */;
+			path = FIT5140_A2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 323149EB2344955F00DC101B /* Project object */;
+}
